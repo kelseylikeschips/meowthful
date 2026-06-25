@@ -11,7 +11,9 @@ gluonfx {
 
 repositories {
     mavenCentral()
-    maven { url 'https://nexus.gluonhq.com/nexus/content/repositories/releases' }
+    maven {
+    url = uri('[Gluonhq](https://nexus.gluonhq.com/nexus/content/repositories/releases/'))
+    }
 }
 
 javafx {
@@ -21,6 +23,7 @@ javafx {
 
 dependencies {
     implementation 'com.gluonhq:charm-glisten:6.2.3'
+    implementation 'com.gluonhq.attach:display:4.0.14'
 }
 
 application {
