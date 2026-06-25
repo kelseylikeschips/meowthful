@@ -21,6 +21,7 @@ public class Meowthful extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         appManager.start(primaryStage);
+        
     }
 
     private void postInit(Scene scene) {
